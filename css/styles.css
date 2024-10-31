@@ -6,14 +6,31 @@ body {
   line-height: 1.5;
 }
 
+.hero {
+  background-color: #2e2f42;
+  color: #ffffff;
+}
+.main_heading {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: #2e2f42;
+}
+
+.logo:hover,
+.logo:focus {
+  color: #404bbf;
 }
 
 .logo span {
@@ -24,6 +41,7 @@ body {
   font-weight: 500;
   letter-spacing: 0.02em;
   transition: color 0.3s;
+  color: #434455;
 }
 
 .nav-link:hover,
@@ -35,6 +53,10 @@ body {
   color: #333;
   text-decoration: none;
   transition: color 0.3s;
+}
+
+.contact-info {
+  font-style: normal;
 }
 
 .contact-info a:hover,
@@ -51,6 +73,32 @@ button {
   font-size: 16px;
   transition: background-color 0.3s, color 0.3s;
 }
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 100px 20px;
+  background-color: #2e2f42;
+}
+.hero-title {
+  font-size: 36px;
+  line-height: 1.2;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.hero-button {
+  font-size: 16px;
+  padding: 15px 30px;
+  background-color: #3a66e5;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: background-color 0.3s;
+}
 button:hover {
   background-color: #007acc;
 }
@@ -60,6 +108,88 @@ a {
   color: inherit;
 }
 
+section {
+  padding: 40px 0;
+}
+
+.order_service {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: #4d5ae5;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 10px 20px;
+}
+.order_service:hover,
+.order_service:focus {
+  background-color: #404bbf;
+}
+.service_description {
+  letter-spacing: 0.02em;
+}
+.service_title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.team {
+  background-color: #f4f4fd;
+  padding: 20px;
+}
+.team_title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.team_member {
+  background-color: #ffffff;
+  padding: 15px;
+  margin: 10px 0;
+  text-align: center;
+}
+.team_member_name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.team_member_role {
+  font-size: 16px;
+  letter-spacing: 0.02em;
+}
+.portfolio {
+  padding: 40px 0;
+  text-align: center;
+  background-color: #f5f5f5;
+}
+.portfolio__title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.portfolio__project-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.portfolio__project-description {
+  letter-spacing: 0.02em;
+}
 ul {
   list-style-type: none;
   padding: 0;
