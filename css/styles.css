@@ -1,0 +1,52 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #2e2f42;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.contact-info a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.contact-info a:hover,
+.contact-info a:focus {
+  color: #007acc;
+}
+
+.roboto-bold {
+  font-family: 'Roboto', serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.raleway {
+  font-family: 'Raleway', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+}
+button {
+  background-color: #4d5ae5;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, color 0.3s;
+}
+button:hover {
+  background-color: #007acc;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style-type: none;
+  padding: 2;
+  margin: 2;
+}
