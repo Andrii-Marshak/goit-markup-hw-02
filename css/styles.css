@@ -93,9 +93,13 @@ nav ul {
 }
 
 .contact-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
     text-decoration: none;
-    color: inherit;
 }
+
 
 .contact-link:hover,
 .contact-link:focus {
@@ -111,6 +115,7 @@ button {
     font-size: 16px;
     transition: background-color 0.3s, color 0.3s;
 }
+
 
 .hero-section {
     display: grid;
@@ -144,7 +149,7 @@ button {
 
 .hero-button:hover,
 .hero-button:focus {
-    background-color: #404BBF;
+    background-color: #404bbf;
 }
 
 button:hover {
@@ -288,7 +293,7 @@ ul {
 }
 
 .footer-description {
-    color: var(--text-color, #F4F4FD);
+    color: var(--text-color, #f4f4fd);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
