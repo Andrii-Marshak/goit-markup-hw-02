@@ -12,10 +12,6 @@ body {
     font-size: 16px;
 }
 
-* {
-    padding: 0;
-
-}
 
 .hero {
     background-color: #2e2f42;
@@ -64,8 +60,6 @@ body {
 .nav-list,
 nav ul {
     list-style: none;
-    gap: 20px;
-    padding: 0;
     margin: 0;
 }
 
@@ -124,7 +118,6 @@ button {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    padding: 10px 20px;
     border: none;
     cursor: pointer;
 }
@@ -142,9 +135,6 @@ a {
     color: inherit;
 }
 
-section {
-    padding: 40px 0;
-}
 
 .team_member_name,
 .team_member_role {
@@ -161,7 +151,6 @@ section {
     border: none;
     color: #ffffff;
     cursor: pointer;
-    padding: 10px 20px;
 }
 
 .order_service:hover,
@@ -188,7 +177,6 @@ section {
 
 .team {
     background-color: var(--light-bg);
-    padding: 20px;
 }
 
 .team_title,
@@ -203,7 +191,6 @@ section {
 
 .team_member {
     background-color: #ffffff;
-    padding: 15px;
     margin: 10px 0;
     text-align: center;
 }
@@ -224,7 +211,6 @@ section {
 }
 
 .portfolio {
-    padding: 40px 0;
     text-align: center;
     background-color: #f5f5f5;
 }
@@ -248,13 +234,11 @@ section {
 
 ul {
     list-style-type: none;
-    padding: 0;
     margin: 0;
 }
 
 .footer {
     background-color: #2e2f42;
-    padding: 20px;
     text-align: center;
 }
 
