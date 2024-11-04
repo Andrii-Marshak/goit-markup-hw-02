@@ -24,6 +24,7 @@ body {
 
 .logo {
     font-family: 'Raleway', sans-serif;
+    font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
@@ -74,6 +75,9 @@ nav ul {
     transition: color 0.3s;
 }
 
+.contact-info {
+    font-style: normal;
+}
 
 .contact-link {
     font-size: 16px;
@@ -92,6 +96,7 @@ button {
     background-color: var(--accent-color);
     color: white;
     border: none;
+    cursor: pointer;
     font-size: 16px;
     transition: background-color 0.3s, color 0.3s;
 }
@@ -121,14 +126,15 @@ button {
     letter-spacing: 0.04em;
     padding: 10px 20px;
     border: none;
+    cursor: pointer;
 }
 
 .hero-button:hover {
-    color: #404BBF;
+    background-color: #404BBF;
 }
 
 .hero-button:focus {
-    color: #404BBF;
+    background-color: #404BBF;
 }
 
 a {
@@ -154,12 +160,13 @@ section {
     background-color: #434455;
     border: none;
     color: #ffffff;
+    cursor: pointer;
     padding: 10px 20px;
 }
 
 .order_service:hover,
 .order_service:focus {
-    background-color: #404BBF;
+    background-color: #404bbf;
 }
 
 .service_description {
