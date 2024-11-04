@@ -82,11 +82,11 @@ nav ul {
 }
 
 .contact-link:hover {
-    color: #404bbf;
+    background-color: #404BBF
 }
 
 .contact-link:focus {
-    color: #2e2f42;
+    background-color: #404BBF
 }
 
 button {
