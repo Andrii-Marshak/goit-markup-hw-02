@@ -81,7 +81,10 @@ nav ul {
     text-decoration: none;
 }
 
-.contact-link:hover,
+.contact-link:hover {
+    color: #404bbf;
+}
+
 .contact-link:focus {
     color: #404bbf;
 }
@@ -123,11 +126,11 @@ button {
 }
 
 .hero-button:hover {
-    color: #404BBF;
+    background-color: #404BBF;
 }
 
 .hero-button:focus {
-    color: #404BBF;
+    background-color: #404BBF;
 }
 
 a {
