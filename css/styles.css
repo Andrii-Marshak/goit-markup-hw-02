@@ -48,7 +48,6 @@ body {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
@@ -71,7 +70,6 @@ body {
 .nav-link {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
     text-decoration: none;
@@ -113,7 +111,6 @@ nav ul {
 
 .contact-link {
     font-size: 16px;
-    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-decoration: none;
@@ -147,7 +144,6 @@ button {
 .main_heading,
 .hero-title {
     font-size: clamp(2rem, 5vw, 56px);
-    line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
@@ -159,7 +155,6 @@ button {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.5;
     letter-spacing: 0.04em;
     padding: 12px 24px;
     border: none;
@@ -172,7 +167,7 @@ button {
 }
 
 button:hover {
-    background-color: #007acc;
+    background-color: #404BBF;
 }
 
 a {
@@ -197,7 +192,6 @@ section {
 .order_service {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    line-height: 1.5;
     letter-spacing: 0.02em;
     background-color: #434455;
     border: none;
@@ -214,7 +208,6 @@ section {
 
 .service_description {
     font-size: 16px;
-    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
     font-family: 'Roboto', sans-serif;
@@ -223,7 +216,6 @@ section {
 .service_title {
     font-size: 20px;
     font-weight: 500;
-    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
     font-family: 'Roboto', sans-serif;
@@ -237,7 +229,6 @@ section {
 .team_title,
 .portfolio__title {
     font-size: clamp(1.5rem, 4vw, 36px);
-    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -254,7 +245,6 @@ section {
 .team_member_name {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
@@ -275,7 +265,6 @@ section {
 .portfolio__project-title {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
@@ -301,7 +290,6 @@ ul {
     font-size: 18px;
     font-weight: 700;
     color: #4d5ae5;
-    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
@@ -314,7 +302,6 @@ ul {
 .footer-description {
     color: var(--text-color, #F4F4FD);
     font-size: 16px;
-    line-height: 1.5;
     letter-spacing: 0.02em;
     font-family: 'Roboto', sans-serif;
     margin-top: 10px;
