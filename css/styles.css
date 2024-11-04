@@ -5,17 +5,16 @@
     --light-bg: #f4f4fd;
 }
 
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
-
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--text-color);
     background-color: #ffffff;
     font-size: 16px;
+}
+
+* {
+    padding: 0;
+
 }
 
 .hero {
@@ -56,10 +55,6 @@ body {
     text-decoration: none;
 }
 
-.nav-link {
-    color: #434455;
-    text-decoration: none;
-}
 
 .nav-link:hover,
 .nav-link:focus {
@@ -69,7 +64,6 @@ body {
 .nav-list,
 nav ul {
     list-style: none;
-    display: flex;
     gap: 20px;
     padding: 0;
     margin: 0;
@@ -101,7 +95,6 @@ nav ul {
 button {
     background-color: var(--accent-color);
     color: white;
-    padding: 10px 20px;
     border: none;
     cursor: pointer;
     font-size: 16px;
@@ -109,9 +102,7 @@ button {
 }
 
 .hero-section {
-    display: grid;
     place-items: center;
-    padding: 50px 0;
     background-color: var(--primary-color);
     text-align: center;
 }
@@ -286,5 +277,4 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-family: 'Roboto', sans-serif;
-    margin-top: 10px;
 }
