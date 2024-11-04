@@ -123,11 +123,11 @@ button {
 }
 
 .hero-button:hover {
-    background-color: #404BBF;
+    color: #404BBF;
 }
 
 .hero-button:focus {
-    background-color: #404BBF;
+    color: #404BBF;
 }
 
 a {
