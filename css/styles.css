@@ -11,12 +11,31 @@
     box-sizing: border-box;
 }
 
+.line-height-1-07 {
+    line-height: 1.07;
+}
+
+.line-height-1-11 {
+    line-height: 1.11;
+}
+
+.line-height-1-17 {
+    line-height: 1.17;
+}
+
+.line-height-1-2 {
+    line-height: 1.2;
+}
+
+.line-height-1-5 {
+    line-height: 1.5;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--text-color);
     background-color: #ffffff;
     font-size: 16px;
-    line-height: 1.5;
 }
 
 .hero {
