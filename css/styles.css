@@ -12,6 +12,9 @@ body {
     font-size: 16px;
 }
 
+a {
+    text-decoration: none;
+}
 
 .hero {
     background-color: #2e2f42;
@@ -29,13 +32,24 @@ body {
     text-decoration: none;
 }
 
+
+
 .logo-highlight {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: #2e2f42;
+    text-decoration: none;
 }
 
 .logo:hover,
-.logo:focus {
-    color: #404bbf;
+.logo:focus,
+.logo-highlight:hover,
+.logo-highlight:focus {
+    text-decoration: underline;
 }
 
 .logo span {
@@ -71,11 +85,9 @@ nav ul {
 }
 
 .contact-link {
-    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    text-decoration: none;
 }
 
 .contact-link:hover,
