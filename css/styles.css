@@ -64,14 +64,9 @@ nav ul {
 }
 
 .contact-info a {
-    color: #434455;
+    color: #333;
     text-decoration: none;
     transition: color 0.3s;
-}
-
-.contact-info a:hover,
-.contact-info a:focus {
-    color: #404bbf;
 }
 
 .contact-info {
