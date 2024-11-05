@@ -68,7 +68,8 @@ a {
     color: #404bbf;
 }
 
-.navigation:focus {
+.nav-link:focus,
+.nav-link:active {
     text-decoration: underline;
     color: #404bbf
 }
@@ -93,13 +94,12 @@ nav ul {
     color: #434455;
 }
 
-.contact-link:hover,
-.contact-link:focus {
+.contact-link:hover {
     color: #404bbf;
 }
 
-
-.navigation:focus {
+.contact-link:focus,
+.contact-link:active {
     text-decoration: underline;
     color: #404bbf
 }
